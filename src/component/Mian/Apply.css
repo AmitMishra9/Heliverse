@@ -1,0 +1,128 @@
+/* Apply Section */
+.applySection {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.appltheading {
+  color: white;
+  font-family: "sora", sans-serif;
+  font-weight: 600;
+  align-items: center;
+  margin: 2px;
+}
+
+.applySection h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.image-sction {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
+.image-one,
+.image-two {
+  background-color: hsl(257, 61%, 8%);
+  padding: 12px 25px;
+  color: whitesmoke;
+  border-radius: 25px;
+}
+
+.image-two {
+  position: relative;
+  top: 40px;
+}
+
+.image-one p,
+.image-two p {
+  color: rgb(198, 194, 194);
+}
+
+.image-one,
+.image-two {
+  flex: 1 0 45%;
+  max-width: 45%;
+  margin-bottom: 1rem;
+}
+
+.image-one img,
+.image-two img {
+  width: 100%;
+  height: auto;
+}
+
+/* Card Section */
+.card-sction {
+  background: linear-gradient(90deg, #0f0821 1%, #211a31 80%);
+  text-align: center;
+  padding: 25px;
+}
+
+.card-sction p {
+  color: rgb(177, 170, 170);
+}
+
+.card-sction h2 {
+  margin-bottom: 1rem;
+  color: whitesmoke;
+}
+
+.card-sction img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .image-one,
+  .image-two {
+    flex: 1 0 48%;
+    max-width: 48%;
+  }
+}
+
+@media (max-width: 768px) {
+  .image-one,
+  .image-two {
+    flex: 1 0 100%;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .applySection {
+    padding: 1rem;
+  }
+
+  .applySection h1 {
+    font-size: 10px;
+  }
+
+  .card-sction h2 {
+    font-size: 1rem;
+  }
+
+  .image-one,
+  .image-two {
+    background-color: hsl(257, 61%, 8%);
+    padding: 8px 10px;
+    color: whitesmoke;
+    border-radius: 25px;
+  }
+}
+
+@media (max-width: 380px) {
+  .image-one,
+  .image-two {
+    background-color: hsl(257, 61%, 8%);
+    padding: 10px 15px;
+    color: whitesmoke;
+    border-radius: 25px;
+  }
+}

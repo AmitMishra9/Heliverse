@@ -1,0 +1,139 @@
+/* General Styles */
+.main-sction {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .heading {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: white;
+   font-family: "sora",sans-serif;
+  }
+  
+  .reacting-sction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  .rating-info{
+    position: relative;
+    color:white;
+    left: 25px;
+  }
+  
+  .circleimage {
+    text-align: center;
+    margin-right: 1rem;
+  }
+  
+  .stars {
+    display: flex;
+    align-items: center;
+  }
+  
+  .stars img:first-child {
+    margin-right: 0.5rem;
+  }
+  
+  .barnd-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+.text-img-sction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text-section p{
+     color: #928da1;
+}  
+.text-section {
+    flex: 1;
+    margin-right: 8rem;
+    
+}
+.text-section h1{
+     color: whitesmoke;
+     line-height:2;
+}
+.btn{
+  padding: 20px 45px;
+  border-radius: 15px;
+  font-size: larger;
+  background: linear-gradient(90deg, #F87516 0%, #5E11FF 100%);
+  color: white;
+  border: none;
+    &::hover{
+         background-color: #5E11FF;
+
+    }
+  
+}
+  .image-sction {
+    position: relative;
+    flex: 1;
+    text-align: right;
+   
+  }
+  
+  .image-sction img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  @media (max-width: 768px) {
+   
+    .reacting-sction {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .circleimage {
+      margin-right: 0;
+      margin-bottom: 1rem;
+    }
+  
+    .text-img-sction {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .text-section {
+      margin-right: 0;
+      margin-bottom: 1rem;
+    }
+  
+    .image-sction {
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    /* Phone */
+    .reacting-sction {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .circleimage {
+      margin-bottom: 1rem;
+    }
+  
+    .text-img-sction {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .text-section {
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+  
+    .image-sction {
+      text-align: center;
+    }
+  }

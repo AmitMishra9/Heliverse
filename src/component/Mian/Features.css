@@ -1,0 +1,86 @@
+/* Features Section */
+.Features-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .Features-section .mainHeading {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: white;
+  }
+  
+  .Features-section .subHeading {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: rgb(174, 170, 170);
+  }
+  
+  .Features-section .card-one,
+  .Features-section .card-two,
+  .Features-section .card-Three {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin: 1%;
+    padding: 1rem;
+    box-sizing: border-box;
+    text-align: left;
+    background: linear-gradient(120deg, #120b23 8%, #1c152d  50%);
+    ;
+  }
+  
+  .Features-section .card-one img,
+  .Features-section .card-two img,
+  .Features-section .card-Three img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .Features-section .card-one h3,
+  .Features-section .card-two h3,
+  .Features-section .card-Three h3 {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    color: white;
+  }
+  
+  .Features-section .card-one p,
+  .Features-section .card-two p,
+  .Features-section .card-Three p {
+    margin-bottom: 0;
+    color: rgb(176, 171, 171);
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .Features-section .card-one,
+    .Features-section .card-two,
+    .Features-section .card-Three {
+      width: 45%;
+      margin: 2%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .Features-section {
+      padding: 1rem;
+    }
+  
+    .Features-section .mainHeading {
+      font-size: 2rem;
+    }
+  
+    .Features-section .subHeading {
+      font-size: 1rem;
+    }
+  
+    .Features-section .card-one,
+    .Features-section .card-two,
+    .Features-section .card-Three {
+      width: 100%;
+      margin: 0 0 2rem 0;
+    }
+  }

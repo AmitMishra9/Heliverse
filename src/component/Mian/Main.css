@@ -1,0 +1,86 @@
+/* App.css */
+.Main-container {
+    display: flex;
+    justify-content: center;
+   
+    min-height: 60vh;
+    color: white;
+    padding: 1rem;
+  }
+  
+  .small-section {
+    position: absolute;
+    left: 15rem;
+    text-align: left;
+  }
+  
+  .big-section {
+    text-align: left;
+    max-width: 800px;
+  }
+
+.big-section h1{
+      font-size:65px;
+      font-weight: 700;
+      font-family: "sora",sans-serif;
+  }
+  .big-section p{
+    color: #aaa5ba;
+}
+  .motion-art {
+    background-image: linear-gradient(90deg, #F87516 0%, #5E11FF 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+  
+  /* Media Queries */
+  
+  /* Tablets */
+  @media (max-width: 1050px) {
+    .Main-container {
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem 1rem;
+    }
+  
+    .small-section {
+      position: static;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+  
+    .big-section {
+      max-width: 100%;
+    }
+  }
+  
+  /* Phones */
+  @media (max-width: 767px) {
+    .Main-container {
+      
+      min-height: auto;
+      padding: 1rem;
+      position: relative;
+      top: 14px;
+
+    }
+  
+    .small-section {
+      margin-bottom: 1rem;
+    }
+    .big-section {
+      text-align: center;
+  }
+  .big-section h1{
+    font-size:35px;
+    font-weight: 400;
+    font-family: "sora",sans-serif;
+}
+}
+  
+  /* Laptops and Desktops */
+  @media (min-width: 992px) {
+    .Main-container {
+      padding: 2rem;
+    }
+  }

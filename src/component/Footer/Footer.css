@@ -1,0 +1,38 @@
+.footer {
+    background: linear-gradient(90deg, #F87516 0%, #5E11FF 100%);
+    color: white;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .copyright {
+    font-size: 0.9rem;
+  }
+  
+  .links {
+    
+    display: flex;
+  }
+  
+  .link {
+    color: white;
+    text-decoration: none;
+    margin-left: 2rem;
+  }
+
+  @media (max-width: 480px) {
+    .link {  
+    font-size: 14px;
+    
+  }
+  .copyright {
+    font-size: 0.6rem;
+  }    
+  
+    }
